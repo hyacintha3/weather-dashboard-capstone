@@ -1,18 +1,47 @@
-<<<<<<< HEAD
-# React + Vite
+# Weather Dashboard Capstone Project
+# INTRODUCTION
+Hi, my name is NIYONIZEYE Hyacintha
+This is my Front-End Capstone Project built during the capstone phase of the program.
+The weather Dshboard is a web application that allows users to search for any city and view real time weather data using the OpenWeather API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## PROBLEM IT SOLVES
+Many users want a simple and clean way to check weather conditions quickly without unnecessary complexity.
 
-Currently, two official plugins are available:
+This app provides:
+.Real time weather information
+.A clean and responsive UI
+.Dynamic background changes    based on weather condition
+.Easy refresh and recent search tracking
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+.Search for any city
+.View temperature in Celsius
+.Weather condition display Dynamic background changes based on weather
+.Refresh button to reload current city weather
+.Recent searches saved in localStorage
+.Error handling for invalid cities
+.Responsive design 
 
-## React Compiler
+#### Technologies Used
+React
+JavaScript
+Tailwind CSS
+OpenWeatherMap API
+LocalStorage
+Git & GitHub
+Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##### How It Works
+User enters a city name.
+The app fetches data from OpenWeather API.
+Weather data is displayed in a WeatherCard.
+Background changes depending on the weather.
+Recent searches are saved and clickable.
+User can refresh the current weather.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
+###### What I Learned
+Working with APIs
+Managing state with React
+Handling requests
+Improving UI/UX design
+Deploying applications
