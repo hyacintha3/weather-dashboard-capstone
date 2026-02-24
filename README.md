@@ -31,6 +31,9 @@ LocalStorage
 Git & GitHub
 Vercel
 
+#### live demo
+https://weather-dashboard-one-gray.vercel.app
+
 ##### How It Works
 User enters a city name.
 The app fetches data from OpenWeather API.
