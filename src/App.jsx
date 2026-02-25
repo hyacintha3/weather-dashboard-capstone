@@ -69,8 +69,6 @@ function App() {
       case "Thunderstorm":
         return stormBg;
       case "Mist":
-      case "Haze":
-      case "Fog":
         return mistBg;
       default:
         return clearBg;
@@ -94,7 +92,7 @@ function App() {
         <>
           <WeatherCard data={weather} />
 
-          {/* Refresh Button */}
+          {/* Refresh Button  */}
           <button
             onClick={() => fetchWeather(weather.name)}
             className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
